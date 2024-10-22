@@ -19,19 +19,7 @@ A special thank you to **Kartex Tekstil ve Madencilik A.Ş.** for allowing me to
 - **EmailJS**: Integrated for sending emails through the contact form.
 - **Google Maps API**: Embedded to show the company’s physical location.
 
+## Live Website
 
-## Screenshots
+You can view the official website at [www.kartextmi.com.tr](https://www.kartextmi.com.tr).
 
-![Responsive Design Preview](link-to-screenshot)
-
-## Live Demo
-
-You can view the live website at [www.kartextmi.com.tr](https://www.kartextmi.com.tr/#/homeView).
-
-## How to Run the Project Locally
-
-If you'd like to run this project on your local machine, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/kartex-website.git
