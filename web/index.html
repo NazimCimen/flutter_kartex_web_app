@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="KARTEX Madencilik ve Tekstil, maden ve tekstil sektörlerinde faaliyet gösteren güçlü bir markadır. Kalite ve güven odaklı hizmet anlayışımızla, global standartlarda çözümler sunarak sektörde öncü olmayı hedefliyoruz. Her iki alanda sunduğumuz uzmanlık, inovatif yaklaşımımız ve çevreye duyarlı uygulamalarımızla, müşterilerimize en iyi deneyimi yaşatmayı amaçlıyoruz.">
+  <meta name="keywords" content="madencilik, tekstil, kartex, maden, tekstil ürünleri, kalite, güven">
+  <meta name="author" content="KARTEX Madencilik ve Tekstil">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="KARTEX Madencilik ve Tekstil">
+  <meta property="og:description" content="Kalite ve güven odaklı hizmet anlayışımızla, global çözümler sunuyoruz.">
+  <meta property="og:image" content="https://kartex.com/assets/assets/images/logo.png">
+  <meta property="og:url" content="https://kartextmi.com.tr">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="KARTEX Madencilik ve Tekstil">
+  <meta name="twitter:description" content="Kalite ve güven odaklı hizmet anlayışımızla, global çözümler sunuyoruz.">
+  <meta name="twitter:image" content="https://kartextmi.com.tr/assets/assets/images/logo.png">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="KARTEX MADENCİLİK VE TEKSTİL">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+  <!-- Title -->
+  <title>KARTEX MADENCİLİK VE TEKSTİL</title>
+
+  <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+  <script src="flutter_bootstrap.js" async></script>
+  <script src="config.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const mapApiKey = window.env.MAP_KEY;
+      const script = document.createElement('script');
+      script.src = `https://maps.googleapis.com/maps/api/js?key=${mapApiKey}`;
+      document.head.appendChild(script);
+    });
+  </script>
+</body>
+
+</html>
