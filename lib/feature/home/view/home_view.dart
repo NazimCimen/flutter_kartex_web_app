@@ -37,14 +37,9 @@ class _HomeViewState extends State<HomeView> with HomeViewMixin {
               },
             ),
             if (!isMobile)
-              Positioned(
-                top: 0,
-                left: 0,
-                right: 0,
-                child: HeaderDesktop(
-                  sectionNavButton: scrollToSection,
-                  isHeaderTransparent: isHeaderTransparent,
-                ),
+              HeaderDesktop(
+                sectionNavButton: scrollToSection,
+                isHeaderTransparent: isHeaderTransparent,
               ),
             if (isMobile)
               HeaderMobile(
@@ -84,7 +79,6 @@ class _BodyContent extends StatelessWidget {
                 key: sectionKeys.first,
               ),
               HomeSection(
-                isMobile: isMobile,
                 homeSectionButton: homeSectionButton,
               ),
               Responsive(

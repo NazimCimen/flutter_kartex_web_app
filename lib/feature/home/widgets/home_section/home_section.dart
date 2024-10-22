@@ -9,12 +9,9 @@ import 'package:kartex_web/responsive/responsive.dart';
 class HomeSection extends StatelessWidget {
   final VoidCallback homeSectionButton;
   const HomeSection({
-    required this.isMobile,
     required this.homeSectionButton,
     super.key,
   });
-
-  final bool isMobile;
 
   @override
   Widget build(BuildContext context) {

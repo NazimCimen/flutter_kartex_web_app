@@ -35,9 +35,9 @@ class HeaderDesktop extends StatelessWidget {
             style: Theme.of(context).textTheme.bodyMedium?.copyWith(),
           ),
           const Spacer(),
-          for (int i = 0; i < FeatureItems.drawerItems.length; i++)
+          for (int i = 0; i < AppItems.drawerItems.length; i++)
             CustomButton(
-              text: FeatureItems.drawerItems[i].text,
+              text: AppItems.drawerItems[i].text,
               onPressed: () {
                 sectionNavButton(i);
               },

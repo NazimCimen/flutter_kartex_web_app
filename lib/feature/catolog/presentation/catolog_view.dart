@@ -1,79 +1,18 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:kartex_web/product/constants/feature_items.dart';
 import 'package:kartex_web/product/constants/string_constants.dart';
 import 'package:kartex_web/core/size/constant_size.dart';
 import 'package:kartex_web/core/size/dynamic_size.dart';
 import 'package:kartex_web/core/size/padding_extension.dart';
 import 'package:kartex_web/core/utils/image_enum.dart';
 import 'package:kartex_web/product/constants/custom_shadows.dart';
+import 'package:kartex_web/product/model/catalog_product.dart';
 import 'package:kartex_web/responsive/responsive.dart';
 
 class CatalogView extends StatelessWidget {
   const CatalogView({super.key});
-
-  List<Product> get products => [
-        Product(
-          imagePath: ImageEnumsPng.product1.toPathPng,
-          name: StringConstants.product1_title,
-          description: StringConstants.product1_description,
-        ),
-        Product(
-          imagePath: ImageEnumsPng.product2.toPathPng,
-          name: StringConstants.product2_title,
-          description: StringConstants.product2_description,
-        ),
-        Product(
-          imagePath: ImageEnumsPng.product3.toPathPng,
-          name: StringConstants.product3_title,
-          description: StringConstants.product3_description,
-        ),
-        Product(
-          imagePath: ImageEnumsPng.product4.toPathPng,
-          name: StringConstants.product4_title,
-          description: StringConstants.product4_description,
-        ),
-        Product(
-          imagePath: ImageEnumsPng.product5.toPathPng,
-          name: StringConstants.product5_title,
-          description: StringConstants.product5_description,
-        ),
-        Product(
-          imagePath: ImageEnumsPng.product6.toPathPng,
-          name: StringConstants.product6_title,
-          description: StringConstants.product6_description,
-        ),
-        Product(
-          imagePath: ImageEnumsPng.product7.toPathPng,
-          name: StringConstants.product7_title,
-          description: StringConstants.product7_description,
-        ),
-        Product(
-          imagePath: ImageEnumsPng.product8.toPathPng,
-          name: StringConstants.product8_title,
-          description: StringConstants.product8_description,
-        ),
-        Product(
-          imagePath: ImageEnumsPng.product9.toPathPng,
-          name: StringConstants.product9_title,
-          description: StringConstants.product9_description,
-        ),
-        Product(
-          imagePath: ImageEnumsPng.product10.toPathPng,
-          name: StringConstants.product10_title,
-          description: StringConstants.product10_description,
-        ),
-        Product(
-          imagePath: ImageEnumsPng.product11.toPathPng,
-          name: StringConstants.product11_title,
-          description: StringConstants.product11_description,
-        ),
-        Product(
-          imagePath: ImageEnumsPng.product12.toPathPng,
-          name: StringConstants.product12_title,
-          description: StringConstants.product12_description,
-        ),
-      ];
 
   @override
   Widget build(BuildContext context) {
@@ -140,9 +79,9 @@ class CatalogView extends StatelessWidget {
                   mainAxisSpacing: 18,
                   childAspectRatio: 16 / 7,
                 ),
-                itemCount: products.length,
+                itemCount: AppItems.products.length,
                 itemBuilder: (context, index) {
-                  final product = products[index];
+                  final product = AppItems.products[index];
                   return FadeInUp(child: ProductCard(product: product));
                 },
               ),
@@ -153,17 +92,6 @@ class CatalogView extends StatelessWidget {
       ),
     );
   }
-}
-
-class Product {
-  const Product({
-    required this.imagePath,
-    required this.name,
-    required this.description,
-  });
-  final String imagePath;
-  final String name;
-  final String description;
 }
 
 class ProductCard extends StatelessWidget {
