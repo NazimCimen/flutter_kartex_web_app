@@ -17,6 +17,7 @@ You can view the official website at [www.kartextmi.com.tr](https://www.kartextm
 - **Contact Form**: Visitors can use the contact form to get in touch with the company, built with **EmailJS** for direct email communication.
 - **Google Maps Integration**: The company's location is embedded in the website using Google Maps, making it easy to find.
 - **Responsive Design**: The website is designed to be fully responsive, ensuring a seamless user experience across all devices (mobile, tablet, desktop).
+- **SEO Optimization**: The website is optimized for search engines to improve visibility and attract more visitors.
 
 ## Technologies Used
 
