@@ -6,6 +6,11 @@ This project was developed to showcase the business activities of **Kartex Tekst
 
 A special thank you to **Kartex Tekstil ve Madencilik A.Ş.** for allowing me to share the source code of this project as open source.
 
+## Live Website
+
+You can view the official website at [www.kartextmi.com.tr](https://www.kartextmi.com.tr).
+
+
 ## Features
 
 - **Workwear Catalogue**: A clean and modern catalogue displays the company's range of workwear products.
@@ -19,7 +24,15 @@ A special thank you to **Kartex Tekstil ve Madencilik A.Ş.** for allowing me to
 - **EmailJS**: Integrated for sending emails through the contact form.
 - **Google Maps API**: Embedded to show the company’s physical location.
 
-## Live Website
+## Packages Used
 
-You can view the official website at [www.kartextmi.com.tr](https://www.kartextmi.com.tr).
+- **flutter_svg**: Renders SVG (Scalable Vector Graphics) files
+- **google_fonts**: Allows the use of fonts from Google Fonts
+- **animate_do**: Used to add animation effects.
+- **google_maps_flutter**:  Used to show adress on map.
+- **http**: Used for http requests.
+- **flutter_dotenv**:Used for loading environment variables from a .env file
+- **very_good_analysis**:Linter rules for code quality and consistency
+
+
 
