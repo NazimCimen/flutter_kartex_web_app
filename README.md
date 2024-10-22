@@ -4,6 +4,8 @@
 
 This project was developed to showcase the business activities of **Kartex Tekstil ve Madencilik A.Ş.**, a company operating in both the mining and textile sectors. The company specializes in workwear production in the textile field and also offers custom solutions upon request.
 
+A special thank you to **Kartex Tekstil ve Madencilik A.Ş.** for allowing me to share the source code of this project as open source.
+
 ## Features
 
 - **Workwear Catalogue**: A clean and modern catalogue displays the company's range of workwear products.
